@@ -1,0 +1,94 @@
+body {
+  font-size: 17px;
+  max-width:1050px;
+  background-color: #FFFFFF;
+  margin: auto;
+}
+
+h3, h4 {
+  color:#519fa5;
+  font-family: Tw Cen MT;
+}
+h4 {
+  margin-bottom:-5px;
+}
+p {
+  color:#17191b;
+  font-family: Tw Cen MT;
+}
+p.indent {
+  text-indent: 30px;
+}
+address {
+   color:#17191b;}
+a:link    {color:#9f2112; text-decoration:underline}
+a:visited {color:#371608; text-decoration:underline}
+a:hover   {color:#519fa5; text-decoration:underline}
+a:active  {color:white; text-decoration:underline}
+
+a.class1 {color:#17191b;}
+a.class1:link  {text-decoration: none; color: #17191b;}
+a.class1:visited {text-decoration: none; color: #371608;}
+a.class1:hover {text-decoration: underline; color: #519fa5;}
+a.class1:active {text-decoration: none; color: white;}
+
+a.nav:link{
+  color:#f29e92;
+  text-decoration:none;
+  padding:7px;
+  font-weight: bold;
+}
+a.nav:visited{
+  color:#f29e92;
+  text-decoration:none;
+  padding:7px;
+  font-weight: bold;
+}
+a.nav:hover{
+  color:#519fa5;
+  text-decoration:none;
+  padding:7px;
+  font-weight: bold;
+}
+
+
+li {
+  color:#17191b;
+  font-family: Tw Cen MT;
+}
+
+header {
+  font-family:Tw Cen MT;
+  background: no-repeat bottom;
+  background-color:#9f2112;
+  color:#f29e92;
+  text-align:center;
+  padding:5px;
+  height: 110px;
+}
+nav {
+  margin:auto;
+  font-family:Tw Cen MT;
+  text-align: center;
+  line-height:30px;
+  background-color:#371608;
+  padding:5px;
+  color:#f29e92;
+}
+
+section {
+  margin:auto;
+  font-family:Tw Cen MT;
+  max-width:950px;
+  padding:10px;
+  border-bottom:3px solid #dddddd;
+}
+::selection {
+  background:#dddddd;
+  color:#17191b;
+}
+
+::-moz-selection {
+  background:#dddddd;
+  color:#17191b;
+}
